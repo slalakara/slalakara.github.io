@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+}
+
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ width: 1440px;
+ margin-inline: auto;
+}
+
+.hero-image {
+  background-image: url("/temel/odev-1/hero-shop/assest/img/Sharp.jpg");
+  background-color: rgba(236, 241, 248, 1);
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  color: #fff;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.hero-text h1 {
+  padding-top: 279px;
+  margin-bottom: 24px;
+}
+
+.hero-text p {
+  font-size: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.button {
+  width: Hug (214px)px;
+  height: Hug (64px)px;
+  padding: 16px 40px 16px 40px;
+  gap: 16px;
+  border-radius: 32px 32px 32px 32px;
+  text-decoration: none;
+  color: #fff;
+  background-color: rgba(9, 75, 172, 1);
+}

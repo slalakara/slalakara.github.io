@@ -1,0 +1,427 @@
+:root{
+  --primary-color: #F6A560;
+  --primary-accent-color:#7A746E;
+  --secondary-color:#FFF7F0;
+  --highlight-color:#755CDE;
+  --light-color:#61C4B7;
+  --dark-color:#030303;
+  --third-color:#552049;
+  --fourth-color:#F39E9E;
+  --fifth-color:#EB7565;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+p{
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: center;
+  color: var(--primary-accent-color);
+  margin-bottom: 24px;
+}
+
+h1{
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 37px;
+  font-weight: 700;
+  line-height: 45.36px;
+  text-align: center;
+  color: var(--dark-color);
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 32.76px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.btn {
+  background-color: var(--fifth-color);
+  padding: 10px 27px;
+  border-radius: 25px;
+  width: 200px;
+  margin: 0 auto; 
+}
+
+.about-me-btn {
+  background-color: var(--fifth-color);
+  padding: 10px 27px;
+  border-radius: 25px;
+  width: 200px;
+  margin: 0 auto; 
+}
+
+.booking-btn {
+  background-color: var(--fifth-color);
+  padding: 10px 27px;
+  border-radius: 25px;
+  width: 200px;
+  margin: 0 auto; 
+}
+
+body {
+  background-color: var(--secondary-color);
+}
+
+.container {
+  width: 375px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 343px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.header-btn {
+  background-color: var(--dark-color);
+  padding: 8px 27px;
+  border-radius: 25px;
+}
+
+
+.hero {
+  width: 343px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.content-container {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: 1fr 1fr;
+  width: 343px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.content {
+  background-color: #f08080;
+  padding: 20px;
+  grid-column: span 2;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Plus Jakarta Sans' ,sans-serif;
+}
+.content img {
+  align-self: end;
+}
+.content:first-child {
+  gap: 92px;
+}
+.tek {
+  grid-column: span 1;
+}
+
+.content:nth-child(1) {
+  background-color: #755CDE;
+}
+
+.content:nth-child(2) {
+  background-color: #F6A560;
+}
+
+.content:nth-child(3) {
+  background-color: #F39E9E;
+}
+
+.content:nth-child(4) {
+  background-color: #EB7565;
+}
+
+.content:nth-child(5) {
+  background-color: #61C4B7;
+}
+
+.content:nth-child(6) {
+  background-color: #552049;
+}
+
+.about-me {
+  margin-top: 100px; 
+  text-align: center;
+  margin: 0 auto;
+  width: 343px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.about-me img {
+  margin-bottom: 40px;
+}
+
+.booking {
+  margin-top: 100px;
+  width: 343px;
+  margin: 0 auto;
+  align-items: center;
+  background-color: var(--dark-color);
+  border-radius: 10px;
+  padding: 49px 24px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.booking p{
+  color: var(--secondary-color);
+}
+
+.booking h2 {
+  color: var(--secondary-color);
+}
+
+.footer {
+  width: 343px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.header-btn {
+  background-color: var(--dark-color);
+  padding: 8px 27px;
+  border-radius: 25px;
+}
+
+@media(width >= 768px) {
+  p{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+    color: var(--primary-accent-color);
+    margin-bottom: 24px;
+  }
+  
+  h1{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 55.44px;
+    text-align: center;
+    color: var(--dark-color);
+    margin-bottom: 27px;
+  }
+  
+  h2 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.32px;
+    text-align: center;
+  }
+  
+  .container {
+    width: 768px;
+  }
+  
+  .header {
+    width: 690px;
+  }
+
+  .hero {
+    width: 690px;
+    margin-bottom: 64px;
+  }
+
+  .hero p {
+    width: 573px;
+    margin: 0 auto;
+  }
+  
+  .content-container {
+    width: 690px;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 120px;
+  }
+  .content:first-child {
+    grid-row: span 2;
+  }
+
+  .about-me {
+    width: 772px;
+    /* margin-left: -35px; */
+    display: flex;
+    gap: 69px;
+    flex-direction: row;
+    margin-bottom: 120px;
+  }
+
+  .about-me img {
+    width: 364px;
+    margin-left: -35px; 
+  }
+
+  .about-me-description h2 {
+    text-align: left;
+  }
+
+  .about-me-description p {
+    text-align: left;
+  }
+
+  .about-me-btn {
+    background-color: var(--fifth-color);
+    padding: 10px 27px;
+    border-radius: 25px;
+    width: 200px;
+    display: block;
+    margin: 0;
+  }
+
+  .booking {
+    width: 690px;
+  }
+
+  .booking-description {
+    width: 540px;
+  }
+
+  .booking-btn {
+    display: block;
+  }
+
+  .footer {
+    width: 690px;
+  }
+}
+
+@media(width >= 1100px) {
+  h1 {
+    width: 751px;
+  }
+  
+  h2{
+    font-family: 'Plus Jakarta Sans' ,sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50.4px;
+    text-align: left;
+    width: 540px;
+    margin-bottom: 34px;
+  }
+
+  p{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    width: 540px;
+    margin-bottom: 32px;
+  }
+
+  .btn:hover{
+    background-color: var(--primary-color);
+  }
+
+  .header-btn:hover {
+    background-color: var(--highlight-color);
+  }
+  
+  .about-me-btn:hover {
+    background-color: var(--primary-color);
+  }
+  
+  .booking-btn:hover {
+    background-color: var(--primary-color);
+  }
+  
+  .container{
+    width: 1440px;
+  }
+
+  .header{
+    width: 1111px;
+  }
+
+  .hero {
+    width: 750px;
+    margin-bottom: 80px;
+  }
+
+  .content-container {
+    grid-template-columns: repeat(6, 1fr);
+    width: 1110px;
+    margin-bottom: 136px;
+  }
+
+  .about-me {
+    width: 1110px;
+    /* gap: 125px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .about-me img{
+    width: 445px;
+  }
+
+  .booking {
+    width: 1110px;
+    margin-bottom: 56px;
+    display: flex;
+    flex-direction: row;
+    gap: 182px;
+    padding: 65px 85px;
+
+  }
+
+  .booking p{
+    text-align: left;
+  }
+
+  .booking h2{
+    text-align: left;
+  }
+
+  .booking-description {
+    width: 540px;
+    text-align: left;
+  }
+
+  .booking-btn{
+    display: block;
+    width: 228px;
+    text-align: center;
+  }
+  
+  .footer{
+    width: 1111px;
+  }
+}

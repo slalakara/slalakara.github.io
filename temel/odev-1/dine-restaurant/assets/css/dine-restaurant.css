@@ -1,0 +1,935 @@
+:root {
+  --primary-dark-color: #111111;
+  --primary-light-color: #9E7F66;
+  --secondary-highlight-color: #242B37;
+  --secondary-light-color: #5C6779;
+  --secondary-dark-color: #17192b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+  /* mobilestart */
+ /*  @media(width <= 375px ){ */
+    .container {
+      margin:0 auto;
+      width: 375px;
+      font-family: 'League Spartan' , sans-serif;
+    }
+
+    .header{
+      margin-bottom: -4px;
+    }
+
+    .hero {
+      margin:0 auto;
+      width: 375px;
+      background-color: black;
+      margin-bottom: 100px;
+      padding-bottom: 120px;
+    }
+
+    .hero img {
+      display: none;
+    }
+
+    .hero-text {
+      margin:0 auto;
+      color: white;
+      row-gap: 30px;
+      text-align: center;
+    }
+
+    .hero-text h1 {
+      margin:0 auto;
+      width: 82.4px;
+      margin-bottom: 36px;
+    }
+
+    .hero-text h2 {
+      margin: 0 auto;
+      width: 327px;
+      font-size: 32px;
+      font-weight: 300;
+      line-height: 40px;
+      letter-spacing: -0.4000000059604645px;
+      text-align: center;
+      margin-bottom: 24px;
+    }
+
+    .hero-text p {
+      margin: 0 auto;
+      margin-bottom: 70px;
+      font-family: 'League Spartan' , sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      text-align: center;
+      width: 327px;
+    }
+
+    .hero-text a {
+      margin: 0 auto;
+      font-size: 13px;
+      font-weight: 600;
+      line-height: 16px;
+      letter-spacing: 2.5px;
+      text-align: center;  
+      text-decoration: none;
+      color: white;
+      border: solid white 1px;
+      padding: 20px 45px;     
+    }
+
+    .place {
+      margin:0 auto;
+      width: 327px;
+      margin-bottom: 175px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .place-img {
+      display: block;
+      margin:0 auto;
+      position: relative;
+      bottom: 150px;
+      box-shadow: 0px 10px 69px -1px rgba(0,0,0,0.32);
+      margin-bottom: -50px;
+    }
+
+    .place-tablet{
+      display: none;
+    }
+
+    .food-categories {
+      display: none;
+    }
+
+    .place-desktop {
+      display: none;
+    }
+
+    .place-line {
+      margin:0 auto;
+      margin-bottom: 36px;
+      text-align: center;
+      width: 71px;
+      display: flex;
+    }
+
+    
+    .place h1 {
+      width: 327px;
+      height: 80px;
+      gap: 0px;
+      opacity: 0px;      
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 40px;
+      letter-spacing: -0.4000000059604645px;
+      text-align: center;
+      margin-bottom: 13px;
+      color: #242B37;
+    }
+
+    .place p {
+      width: 327px;
+      top: 93px;
+      font-family: 'League Spartan' , sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      text-align: center;
+      color: #242B37;
+    }
+
+
+    .food {
+      margin:0 auto;
+      width: 327px;
+      margin-bottom: 175px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .food-img {
+      display: block;
+      margin:0 auto;
+      position: relative;
+      bottom: 72px;
+      box-shadow: 0px 10px 69px -1px rgba(0,0,0,0.32);
+    }
+
+    .food-categories img {
+      display: none;
+    }
+
+    .food-tablet {
+      display: none;
+    }
+
+    .food-desktop {
+      display: none;
+    }
+
+    .food-line {
+      margin:0 auto;
+      margin-bottom: 36px;
+      text-align: center;
+      width: 71px;
+      display: flex;
+    }
+
+    
+    .food h1 {
+      width: 327px;
+      height: 80px;
+      gap: 0px;
+      opacity: 0px;      
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 40px;
+      letter-spacing: -0.4000000059604645px;
+      text-align: center;
+      margin-bottom: 13px;
+      color: #242B37;
+    }
+
+    .food p {
+      width: 327px;
+      top: 93px;
+      font-family: 'League Spartan' , sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      text-align: center;
+      color: #242B37;
+    }
+
+    .highlights {
+      margin-inline: auto;
+      width: 375px;
+      background-color: black;
+      /* margin-bottom: 80px; */
+      display: flex;
+      flex-direction: column;
+    }
+
+    .highlights-content {
+      padding: 72px 24px 25px 24px;
+    }
+    
+    .highlights-content img {
+      margin-bottom: 36px;
+      width: 71px;
+    }
+    
+    
+    .highlights-gallery img {
+      display: flex;
+      flex-direction: column;
+      width: 327px;
+    }
+
+    .highlights-line {
+      display: flex;
+      /* margin: 0 auto; */
+    }
+
+    .highlights-content h1 {
+      width: 327px;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 40px;
+      letter-spacing: -0.4000000059604645px;
+      text-align: center;
+      margin-bottom: 13px;
+      color: white;
+    }
+
+    .highlights-content p {
+      width: 327px;
+      top: 93px;
+      font-family: 'League Spartan';
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      text-align: center;
+      color: white;
+      margin-bottom: 70px;
+    }
+
+    .highlights-content h5 {
+      width: 327px;
+      height: 24px;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: -0.25px;
+      text-align: center;
+      color: white;
+      margin-bottom: 6px;
+    }
+
+    /* .booking {
+      margin-inline: auto;
+      width: 327px;
+      margin-bottom: 124px;
+    }
+    .booking img {
+      box-shadow: 0px 10px 69px -1px rgba(0,0,0,0.32);
+      margin-bottom: 43px;
+    }
+
+    .booking h5 {
+      width: 326px;
+      height: 28px;
+      gap: 0px;
+      opacity: 0px;
+      font-size: 17px;
+      font-weight: 600;
+      line-height: 28px;
+      letter-spacing: 2.5px;
+      text-align: center;
+      margin-bottom: 16px;            
+    }
+
+    .booking h3 {
+      width: 327px;
+      height: 40px;
+      gap: 0px;
+      opacity: 0px;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 40px;
+      letter-spacing: -0.4000000059604645px;
+      text-align: center;
+      color: #242B37;   
+    }
+
+    .booking p {
+      width: 327px;
+      height: 104px;
+      top: 53px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      text-align: center;
+      color: #242B37;
+      margin-bottom: 52px;
+    }
+
+    .booking a {
+      font-size: 17px;
+      font-weight: 600;
+      line-height: 16px;
+      letter-spacing: 2.5px;
+      text-align: left;
+      text-decoration: none;
+      color: white;
+      background-color: black;
+      padding: 25px 54px;
+      margin-left: 35px;
+    } */
+
+    .ready {
+      background-image: url("/temel/odev-1/dine-restaurant/assets/img/ready.jpg");
+      width: 375px;
+      margin: 0 auto;
+    }
+
+    .ready-text {
+      padding: 84px 24px;
+      text-align: center;
+    }
+
+    .ready h4 {
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 40px;
+      letter-spacing: -0.4000000059604645px;
+      text-align: center;
+      color: white;
+      width: 327px;
+      margin-bottom: 55px;
+    }
+    .ready a {
+      font-size: 17px;
+      font-weight: 600;
+      line-height: 16px;
+      letter-spacing: 2.5px;
+      text-decoration: none;
+      color: white;
+      border: solid white 1px;
+      padding: 25px 54px;
+    }
+
+    .footer {
+      margin-inline: auto;
+      width: 375px;
+      background-color: black;
+    }
+
+    .footer-text {
+      margin-inline: auto;
+      width: 327px;
+      padding: 24px 0px 78px;
+      text-align: center;
+      color: white;
+    }
+
+    .footer-text h1 {
+      margin-bottom: 42px;
+    }
+
+    .footer-text p {
+      margin-inline: auto;
+      width: 327px;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 28px;
+      letter-spacing: 2px;
+      text-align: center;
+      margin-bottom: 32px;
+    }
+ /*  } */
+  
+  /* tablet start */
+
+
+  @media (width >= 768px) {
+    .container {
+      width: 768px;
+      font-family: 'League Spartan' , sans-serif;
+    }
+
+    .header img {
+      width: 768px;
+    }
+
+    .hero-text h1 {
+      margin-bottom: 38px;
+      width: 103px;
+      margin: 0 auto;
+    }
+
+    .hero-text h2 {
+      margin-bottom: 20px;
+      font-family: 'League Spartan' , sans-serif;
+      font-size: 48px;
+      font-weight: 300;
+      line-height: 64px;
+      letter-spacing: -0.6000000238418579px;
+      text-align: center;
+
+    }
+    
+    .header img{
+      width: 768px;
+    }
+    
+    .hero {
+      margin: 0 auto;
+      background-color: var(--primary-dark-color);
+      width: 768px;
+    }
+
+    .hero img {
+      display: none;
+    }
+    
+    .hero-text {
+      row-gap: 30px;
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+      color: #FFFFFF;
+      text-align: center;
+    }
+
+    .hero-text p {
+      width: 689px;
+      margin: 0 auto;
+      font-family: 'League Spartan' ,sans-serif;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 30px;
+      text-align: center;
+      margin-bottom: 54px;
+
+    }
+
+    .hero-text a {
+      margin: 0 auto;
+      font-size: 17px;
+      font-weight: 600;
+      line-height: 16px;
+      letter-spacing: 2.5px;
+      text-align: center;  
+      text-decoration: none;
+      color: white;
+      border: solid white 1px;
+      padding: 25px 39px;
+      width: 245px;
+      margin-bottom: 110px;
+    }
+
+    .place {
+      margin:0 auto;
+      width: 573px;
+      margin-bottom: 175px;
+    }
+
+    .place-img {
+      display: none;
+    }
+    
+    .place-tablet {
+      display: block;
+      margin:0 auto;
+      width: 573px;
+      position: relative;
+      bottom: 72px;
+      box-shadow: 0px 10px 69px -1px rgba(0,0,0,0.32);
+    }
+
+    .place-desktop {
+      display: none;
+    }
+    
+    .place-line {
+      margin:0 auto;
+      margin-bottom: 36px;
+      text-align: center;
+      display: flex;
+    }
+    
+    .place h1 {
+      width: 458px;
+      font-size: 52px;
+      font-weight: 700;
+      line-height: 57px;
+      letter-spacing: -0.4000000059604645px;
+      text-align: center;
+      margin-bottom: 13px;
+      color:var(--secondary-highlight-color);
+      margin: 0 auto;
+      margin-bottom: 70px;
+    }
+
+    .place p {
+      margin: 0 auto;
+      font-family: 'League Spartan' , sans-serif;
+      font-size: 19px;
+      font-weight: 400;
+      line-height: 32px;
+      text-align: center;
+      width: 457px;
+      color: var(--secondary-highlight-color);
+    }
+    
+    .food {
+      margin:0 auto;
+      width: 573px;
+      margin-bottom: 175px;
+    }
+    
+    .food-img {
+      display: none;
+    }
+
+    .food-tablet {
+      display: block;
+      margin:0 auto;
+      width: 573px;
+      position: relative;
+      bottom: 72px;
+      box-shadow: 0px 10px 69px -1px rgba(0,0,0,0.32);
+    }
+
+    .food-categories {
+      display: block; 
+      width: 160px;
+      position: relative;
+      left: 460px;
+      top: -200px;
+    }
+
+    .food-desktop {
+      display: none;
+    }
+    
+    .food-line {
+      margin:0 auto;
+      margin-bottom: 36px;
+      text-align: center;
+      display: flex;
+    }
+    
+    .food h1 {
+      width: 458px;
+      font-size: 52px;
+      font-weight: 700;
+      line-height: 57px;
+      letter-spacing: -0.4000000059604645px;
+      text-align: center;
+      margin-bottom: 13px;
+      color:var(--secondary-highlight-color);
+      margin: 0 auto;
+      margin-bottom: 70px;
+    }
+
+    .food p {
+      margin: 0 auto;
+      font-family: 'League Spartan' , sans-serif;
+      font-size: 19px;
+      font-weight: 400;
+      line-height: 32px;
+      text-align: center;
+      width: 457px;
+      color: var(--secondary-highlight-color);
+    }
+
+
+    .highlights {
+      background-color: var(--primary-dark-color);
+      padding: 96px 97px;
+      color: #FFFFFF;
+      text-align: center;
+      width: 768px;
+    }
+
+
+    .highlights-content h1 {
+      font-family: 'League Spartan' , sans-serif;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 48px;
+      letter-spacing: -0.25px;
+      text-align: center;
+      width: 489px;
+      margin: 0 auto;
+      margin-bottom: 27px;
+    }
+
+    .highlights-content p {
+      font-family: 'League Spartan' , sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 30px;
+      text-align: center;
+      width: 445px;
+      margin: 0 auto; 
+      margin-bottom: 54px;
+    }
+
+    .highlights-gallery {
+      width: 573px;
+    }
+
+
+    .highlights-gallery hr {
+      color: #FFFFFF;
+      opacity: 0.1;
+      margin-bottom: 29px;
+    }
+
+    .highlights-gallery img {
+      width: 128px;
+      float: left;
+      margin-right: 30px;
+    }
+
+    .highlights-gallery h5{
+      font-family: 'League Spartan' , sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: -0.25px;
+      text-align: left;
+      margin-bottom: 10px;
+      width: 397px;
+    }
+
+    .highlights-gallery p {
+      font-family: 'League Spartan' , sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      text-align: left;
+      width: 383px;
+    }
+
+    .ready {
+      width: 768px;
+      margin: 0 auto;
+    }
+
+    .ready-text h4{
+      margin: 0 auto;
+      margin-bottom: 60px;
+      width: 615px;
+      font-size: 40px;
+    }
+
+    .footer {
+      width: 768px;
+      padding: 64px 77px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .footer h1 {
+      width: 689px;
+      text-align: left;
+      font-size: 60px;
+      display: flex;
+      /* justify-content: space-between; */
+      gap: 129px;
+      color: #FFFFFF;
+    }
+
+    .footer p {
+      text-align: left;
+      gap: 20px;
+    }
+
+  }
+
+  /* tablet end */
+
+
+  /* desktop start */
+
+  @media (width >= 1440px) {
+    .container {
+      width: 1440px;
+      font-family: 'League Spartan' , sans-serif;
+    }
+
+    .header img {
+      display: none;
+    }
+
+    .hero {
+      width: 1440px;
+      background-image: url("/temel/odev-1/dine-restaurant/assets/img/desktop-header.jpg");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      padding-bottom: 40px;
+    }
+
+    .hero img {
+      width: 600px;
+    }
+
+    .hero-text {
+      text-align: left;
+      padding: 65px 700px 0px 0px;
+    }
+
+    .hero-text h1 {
+      font-size: 40px;
+      width: 103px;
+      height: 40px;
+      left: -180px;
+      bottom: 30px;
+      position: relative;
+    }
+
+    .hero-text h2 {
+      width: 457px;
+      font-family: 'League Spartan' , sans-serif;
+      font-size: 80px;
+      font-weight: 300;
+      line-height: 80px;
+      letter-spacing: -1px;
+      text-align: left;
+    }
+
+    .hero-text p {
+      width: 445px;
+      font-family: 'League Spartan' , sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 30px;
+      text-align: left;
+    }
+
+    .hero-text a {
+      position: relative;
+      left: -100px;
+    }
+
+    .hero-text a:hover {
+      background-color: white;
+      color: black;
+    }
+
+
+    .place {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 125px;
+    }
+
+    .place-line {
+      display: inline;
+    }
+
+    .place-text {
+      align-content: center;
+    }
+
+    .place-text h1 {
+      text-align: left;
+      margin-bottom: 55px;
+    }
+
+    .place-text p {
+      text-align: left;
+    }
+
+    .place-img {
+      display: none;
+    }
+
+    .place-tablet {
+      display: none;
+    }
+
+    
+    .place-desktop {
+      position: relative;
+      display: block;
+      width: 540px;
+      top: -50px;
+      box-shadow: 0px 10px 69px -1px rgba(0,0,0,0.32);
+    }
+    
+    .food{
+      display: flex;
+      flex-direction: row;
+      width: 1110px;
+
+    }
+
+    .food-desktop {
+      display: block;
+      width: 540px;
+      position: relative;
+      top: 240px;
+      left: 607px;
+    }
+
+    .food-categories {
+      position: relative;
+      top: 170px;
+      left: 550px;
+
+    }
+    
+    .food-text {
+      text-align: left;
+      position: relative;
+      right: 670px;
+      top: 400px;
+    }
+
+    .food-text h1{
+      font-family: 'League Spartan' , sans-serif;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 48px;
+      letter-spacing: -0.5px;
+      text-align: left;
+      width: 445px;
+      margin-bottom: 27px;
+    }
+
+    .food-text p{
+      font-family: 'League Spartan' , sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 30px;
+      text-align: left;
+      width: 445px;
+      color: var(--secondary-highlight-color);
+    }
+  
+    .food-img {
+      display: none;
+    }
+
+    .food-line {
+      display: inline;
+
+    }
+
+    .food-tablet {
+      display: none;
+    }
+
+    /* .food-desktop {
+      position: relative;
+      display: block;
+      width: 540px;
+      box-shadow: 0px 10px 69px -1px rgba(0,0,0,0.32);
+      float: right;
+    } */
+
+    .highlights {
+      width: 1440px;
+    }
+
+    .highlights-gallery hr {
+      color: #FFFFFF;
+      opacity: 0.1;
+    }
+
+    .highlights-content {
+      display: flex;
+      gap: 125px;
+    }
+
+    .highlights-text h1 {
+      text-align: left;
+    }
+
+    .highlights-text p {
+      text-align: left;
+      margin-left: -3px;
+    }
+
+   /*  .highlights-line {
+      display: inline;
+    } */
+
+    .ready {
+      width: 1440px;
+    }
+
+    .ready-text a:hover {
+      background-color: white;
+      color: black;
+
+    }
+
+    .footer {
+      width: 1440px;
+      padding: 70px 77px 0px;
+    }
+
+    .footer-text {
+      display: flex;
+      width: 814px;
+      justify-content: space-between;
+      gap: 50px;
+    }
+  }
+  

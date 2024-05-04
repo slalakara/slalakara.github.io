@@ -1,0 +1,142 @@
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 1440px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.container {
+  padding-left: 165px;
+  padding-right: 165px;
+  margin-top: 80px;
+}
+
+.container h3 {
+  width: 824px;
+  font-size: 40px;
+  margin-bottom: 28px;
+}
+
+.middle {
+  vertical-align: middle;
+  margin-bottom: 17px;
+}
+
+.middle img {
+  margin-right: 12px;
+  margin-bottom: -8px;
+}
+
+ 
+.container hr {
+  border-bottom: 1px solid rgba(234, 234, 234, 1);
+  width: 1110px;
+  margin-bottom: 44px;
+}
+
+.bilgisayar img{
+ width: 1110px;
+ margin-bottom: 25px;
+}
+
+.bilgisayar p {
+  margin-bottom: 24px;
+  width: 1112px;
+  font-size: 17px;
+}
+
+.kilit img {
+ float: left;
+ width: 540px;
+ border-radius: 6px;
+ margin-top: 80px;
+}
+
+.kilit h6 {
+  float: right;
+  width: 546px;
+  font-size: 20px;
+  margin-top: 80px;
+  margin-left: 24px;
+  margin-bottom: 16px;
+}
+
+.kilit p {
+  width: 546px;
+  font-size: 20px;
+  margin-left: 24px;
+  float: right;
+  margin-bottom: 80px;
+}
+
+.box {
+  border-width: 1110px;
+  border-radius: 6px;
+  background-color: rgba(236, 241, 248, 1);
+  margin-top: 537px;
+  text-align: center;
+}
+
+.box h4 {
+  text-align: center;
+  width: 860px;
+  font-size: 30px;
+  padding-left: 100px;
+  padding-top: 96px;
+}
+
+.box h6 {
+  text-align: center;
+  width: 140px;
+  font-size: 20px;
+  padding-bottom: 33px;
+  padding-left: 443px;
+  margin-top: 43px;
+}
+
+.watch {
+  width: 1110px;
+  text-align: left;
+}
+
+.watch h6 {
+  width: 546px;
+  font-size: 22px;
+  margin-top: 80px;
+  margin-left: 12px;
+  margin-bottom: 16px;
+}
+
+.watch p {
+  width: 533px;
+  font-size: 16px;
+  margin-left:12px;
+}
+
+.watch img {
+  float: right;
+  width: 523px;
+  margin-top: -282px;
+  margin-left: 736px;
+}
+
+.video {
+  width: 1110px;
+}
+
+.video h4 {
+ padding-top: 166px;
+ padding-left: 19px;
+ width: 194px;
+ font-size: 30px;
+}
+
+.video img {
+  width: 1110px;
+  margin-top: 40px;
+  margin-left: 11px;
+  margin-bottom: 48px;
+}

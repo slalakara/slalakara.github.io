@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Barlow";
+}
+
+body {
+  font-family: system-ui;
+  background-color: #e8e8e8;
+}
+
+hr {
+  margin-bottom: 50px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-align: left;
+  color:#A82D2D;
+}
+
+.header {
+  width: 1000px;
+  margin-inline: auto;
+  padding-block: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header img {
+  width: 250px;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  gap: 48px;
+}
+
+.nav a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #A82D2D;
+  line-height: 1.2em;
+}
+
+.container {
+  width: 990px;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 150px;
+}
+
+
+.gallery-item ul{
+  list-style: none;
+}
+
+.gallery-item a {
+  text-decoration: none;
+}
+
+.img {
+  display: block;
+  max-width: 100%;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.gallery img {
+  width: 600px;
+  display: flex;;
+}
+
+.gallery-item {
+  width: 280px;
+}
+
+.box {
+  box-sizing: 1000px;
+  background-color: #737373;
+  color: #a6a6a6;
+  border-radius: 8px;
+  box-shadow: 10px 10px 15px black;
+}
+
+.box img {
+  width: 600px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 90px;
+ 
+}
+
+.box a {
+  text-align: center;
+  color: #a6a6a6;
+  width: 800px;
+}
+
+
