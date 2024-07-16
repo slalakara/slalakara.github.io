@@ -1,0 +1,606 @@
+:root {
+  --primary-dark-color: #333D4B;
+  --secondary-dark-color: #83888F;
+  --primary-light-color: #FEFCF7;
+  --dark-cyan: #0E8784;
+  --pale-orange: #FDD6BA;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Fraunces";
+  font-weight: 900;
+}
+
+li {
+  font-family: 'Barlow' , sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.9230769276618958px;
+  color: var(--secondary-dark-color);
+}
+
+body {
+  background-color: var(--primary-light-color);
+}
+
+.container {
+  margin: 0 auto;
+  width: 375px;
+  padding: 32px 24px;
+  text-align: center;
+}
+
+.header {
+  margin: 0 auto;
+  display: flex;
+  gap: 188px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.nav {
+  display: none;
+}
+
+.burgermenu {
+  display: block;
+}
+
+.hero {
+  margin: 0 auto;
+  background-image: url(/temel/odev-1/Coffee-Roasters/assets/img/home-hero-mobile.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 24px;
+  margin-bottom: 120px;
+}
+
+.hero h1{
+  font-family: 'Fraunces' , sans-serif 10pt;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 40px;
+  text-align: center;
+  color: var(--primary-light-color);
+  margin-bottom: 24px;
+}
+
+.hero p {
+  font-family: 'Barlow' , sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  color: var(--primary-light-color);
+  margin-bottom: 40px;
+  opacity: 80%;
+  letter-spacing: 0.4px;
+}
+
+.hero a {
+  padding: 15px 30px;
+  color: var(--primary-light-color);
+  background-color: var(--dark-cyan);
+  font-family: 'Fraunces', sans-serif 9pt;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 25px;
+  margin-bottom: 100px;
+  text-decoration: none;
+}
+
+.ourcol-mobile {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 13px;
+} 
+
+.ourcol-tablet {
+  display: none;
+}
+
+.granes-mobile {
+  display: block;
+  margin-bottom: 24px;
+}
+
+.granes-tablet {
+  display: none;
+}
+
+.planaltoes-mobile {
+  display: block;
+  margin-bottom: 24px;
+}
+
+.planaltoes-tablet {
+  display: none;
+}
+
+.picolloes-mobile {
+  display: block;
+  margin-bottom: 24px;
+}
+
+.picolloes-tablet {
+  display: none;
+}
+
+.danchees-mobile {
+  display: block;
+  margin-bottom: 24px;
+}
+
+.danchees-tablet {
+  display: none;
+}
+
+.coffee-content {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+.coffee-item h4 {
+  font-family: 'Fraunces 9pt', sans-serif ;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 32px;
+  color: var(--primary-dark-color);
+}
+
+.coffee-item p {
+  font-family: 'Barlow' , sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  color: var(--primary-dark-color);
+  margin-bottom: 48px;
+} 
+
+.facilities-container {
+  width: 327px;
+  margin: auto;
+  background-color: var(--primary-dark-color);
+  border-radius: 10px;
+  margin-bottom: 120px;
+  padding: 64px 24px;
+  /* height: 900px; */
+}
+
+.facilities-container h3 {
+  font-family: 'Fraunces' , sans-serif 9pt;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 28px;
+  text-align: center;
+  color: var(--primary-light-color);
+}
+
+.facilities-container p {
+  margin-bottom: 64px;
+  font-family: 'Barlow' , sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  color: var(--primary-light-color);
+  opacity: 80%;
+}
+
+.facilities-boxes-item {
+  width: 279px;
+  border-radius: 10px;
+  background-color: var(--dark-cyan);
+  padding: 70px 12px;
+  margin: auto;
+  margin-bottom: 24px;
+}
+
+.facilities-boxes-item h4 {
+  color: var(--primary-light-color);
+  font-family: 'Fraunces' , 9pt;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 32px;
+  text-align: center;
+
+}
+
+.facilities-boxes {
+  margin: auto;
+  margin-bottom: 120px;
+}
+
+.works-steps {
+  margin-bottom: 150px;
+}
+
+.works-steps h4 {
+  font-family: 'Fraunces' 9pt;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 32px;
+  text-align: center;
+  color: var(--secondary-dark-color);
+  width: 327px;
+  margin: auto;
+  margin-bottom: 80px;
+
+}
+
+.steps-item {
+  margin: auto;
+  margin-bottom: 56px;
+}
+
+.steps-item h1 {
+  font-family: 'Fraunces' 9pt;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 72px;
+  text-align: center;
+  margin-bottom: 24px;
+  color: var(--pale-orange);
+}
+
+.steps-item h3 {
+  font-family: 'Fraunces' 9pt;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 32px;
+  text-align: center;
+  color: var(--primary-dark-color);
+}
+
+.steps-item p {
+  font-family: 'Barlow' , sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  color: var(--primary-dark-color);
+}
+
+.works-steps a {
+  padding: 15px 30px;
+  color: var(--primary-light-color);
+  background-color: var(--dark-cyan);
+  font-family: 'Fraunces', sans-serif 9pt;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 25px;
+  margin-bottom: 100px;
+  text-decoration: none;
+}
+
+.footer {
+  margin: auto;
+  background-color: var(--primary-dark-color);
+  padding: 54px 54px;
+}
+
+.footer img {
+  margin-bottom: 48px;
+}
+
+.footer-nav {
+  margin-bottom: 48px;
+}
+
+.footer-nav li {
+  list-style: none;
+  margin-bottom: 24px;
+  font-family: 'Barlow' , sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.9230769276618958px;
+}
+
+.footer-nav a {
+  color: var(--secondary-dark-color); 
+  text-decoration: none;
+}
+
+.socials {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.steps-container-tablet {
+  display: none;
+}
+
+.works-steps {
+  display: block;
+}
+
+.btn {
+  background-color: #0E8784;
+  padding: 12px 22px;
+  text-decoration: none;
+  color: var(--primary-light-color);
+  border-radius: 15px;
+}
+
+@media(width >= 768px) {
+  .container {
+    margin: 0 auto;
+    width: 768px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .hero {
+    margin: 0 auto;
+    background-image: url(/temel/odev-1/Coffee-Roasters/assets/img/home-hero-tablet.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 10px;
+    text-align: left;
+    padding: 104px 58px;
+    margin-bottom: 120px;
+  }
+
+  .hero h1 {
+    text-align: left;
+    width: 329px;
+  }
+
+  .hero p{
+    text-align: left;
+    width: 398px;
+  }
+
+  .burgermenu {
+    display: none;
+  }
+
+  .nav {
+    display: flex;
+    gap: 15px;
+  }
+
+  .nav li {
+    text-decoration: none;
+    list-style: none;
+  }
+
+  .coffee-content {
+    position: relative;
+    bottom: 82px;
+  }
+
+  .coffee-item {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+    gap: 35px;
+    align-items: center;
+  }
+
+  .coffee-item img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .coffee-item-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 282px;
+  }
+
+
+
+  .ourcol-mobile {
+    display: none;
+  } 
+  
+  .ourcol-tablet {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 13px;
+  }
+  
+  .granes-mobile {
+    display: none;
+  }
+  
+  .granes-tablet {
+    display: block;
+  }
+  
+  .granes-tablet img {
+    width: 255px;
+
+  } 
+  
+  .planaltoes-mobile {
+    display: none;
+  }
+  
+  .planaltoes-tablet {
+    display: block;
+  }
+  
+  .picolloes-mobile {
+    display: none;
+  }
+  
+  .picolloes-tablet {
+    display: block;
+  }
+  
+  .danchees-mobile {
+    display: none;
+  }
+  
+  .danchees-tablet {
+    display: block;
+  }
+
+  .facilities-container {
+    width: 688px;
+    height: 573px;
+    margin-bottom: 460px;
+  }
+
+  .facilities-container h3 {
+    font-family: 'Fraunces', sans-serif 9pt;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 48px;
+    text-align: center;
+
+  }
+
+ /*  .facilities-boxes {
+    position: relative;
+    top: 200px;
+  } */
+
+  .facilities-boxes-item {
+    width: 573px;
+    display: flex;
+    gap: 55px;
+    padding: 20px 0px 0px 70px;
+  }
+
+  .facilities-item-text {
+    display: flex;
+    flex-direction: column;
+    width: 344px;
+    
+  }
+  
+  .facilities-item-text p{
+    text-align: left;
+  }
+
+  .facilities-item-text h4 {
+    text-align: left;
+  }
+
+  .steps-container-tablet {
+    display: block;
+  }
+  
+  .works-steps {
+    display: none;
+  }
+  .steps-container-tablet {
+    padding-right: 150px;
+    padding-left: 85px;
+    margin-bottom: 200px;
+  }
+  
+  .steps-container-tablet h4 {
+    margin-bottom: 80px;
+    color: var(--secondary-dark-color);
+    text-align: left;
+  }
+  
+  .steps-tablet {
+    margin-bottom: 36px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  /*   gap: 95px; cizgide bosluk biraktigi icin kaldirdik .steps li ye padding-right verdik*/  
+    list-style: none;
+    counter-reset: item;
+  }
+  
+  .steps-tablet li {
+    border-top: 2px solid var(--pale-orange);
+    padding-top: 110px;
+    padding-right: 95px;
+    position: relative;
+  }
+  
+  .steps-tablet li::after {
+    content: "";/* bos biraktigimizda burda bi tani var ben bunu ekrana basiyim diyor */
+    position: absolute;
+    border: 2px solid var(--dark-cyan);
+    border-radius: 50%;
+    background-color: var(--primary-light-color);
+    width: 29px;
+    height: 29px;
+    top: -16px;
+    left: 0;
+  }
+  
+  .steps-tablet li::before{
+   counter-increment: item;
+   content: counter(item,decimal-leading-zero);
+   color: var(--pale-orange);
+   margin-bottom: 38px;
+   font-size: 72px;
+   line-height: 72px;
+   font-family: "Fraunces";
+   font-weight: 900;
+  }
+  
+  .steps-tablet li:last-child {
+    border-top-color: transparent;
+  } 
+  
+  /* before after elementlerin cocugu gibi calisiyor */
+  
+  .steps-tablet li h3{
+    margin-top: 38px;
+  }
+
+
+
+}
+
+
+
+
+

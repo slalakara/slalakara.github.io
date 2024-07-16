@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tip Calculator</title>
+  <link rel="stylesheet" href="assets/css/tip-calc.css">
+  <script src="assets/js/tip-calc.js" defer></script>
+</head>
+
+<body>
+  <img src="assets/img/SPLITTER.png" alt="splitter logo">
+
+  <div class="tip-calc">
+    <div class="tip-entry">
+      <div class="customer">
+        <div class="customer-header">
+          <h5>Hesap Tutarı</h5>
+          <p class="uyari"></p>
+        </div>
+        <input type="number" class="customer-pay"  placeholder="$0">
+      </div>
+
+      <div class="select-tip">
+          <p>Bahşiş %'sini Seçin</p>
+        <div class="tip-list">
+          <button>5</button>
+          <button>10</button>
+          <button>15</button>
+          <button>25</button>
+          <button>50</button>
+          <form class="customform">
+          <input type="number" placeholder="ÖZEL" class="custom-tip">
+          </form>
+        </div>
+      </div>
+
+      <div class="number-people">
+        <div class="number-people-header">
+          <h5>Kişi Sayısı</h5>
+          <p class="uyari1"></p>
+        </div>
+        <input type="number" class="number-people-input" placeholder="$0" required>
+      </div>
+    </div>
+
+    <div class="tip-show">
+      <div class="tip-amount">
+        <div class="tip-amount-text">Bahşiş Miktarı <span>/ kişi</span></div>
+        <div class="tip-amount-show">$0.00</div>
+      </div>
+
+      <div class="total">
+        <div class="total-text">Toplam <span>/ kişi</span></div>
+        <div class="total-show">$0.00</div>
+      </div>
+
+        <button class="reset-button">Sıfırla</button>
+
+    </div>
+  </div>
+</body>
+
+</html>
