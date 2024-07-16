@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -12,8 +13,10 @@ body {
 }
 
 .container {
-  padding-left: 165px;
+  margin: 0 auto;
   text-align: left;
+  width: 1440px;
+  padding: 20px 130px;
 }
 
 .header {
@@ -21,14 +24,12 @@ body {
   width: inherit;
   margin-inline: auto;
   display: flex;
-  justify-content: space-between;
-  vertical-align: middle;
-  justify-content: space-between;
+  gap: 725px;
   align-items: center;
 }
 
 a {
-  color: Neutral/White;
+  color: White;
   text-decoration: none;
 }
 
@@ -84,12 +85,10 @@ strong {
 
 .application img {
   margin-bottom: 88px;
-  width: 126px;
   float: left;
   gap: 16px;
   padding-top: 29px;
   margin-right: 10px;
-  height: 47px;
 }
 
 #user-button img {
@@ -201,27 +200,23 @@ strong {
 }
 
 .subscribe h6{
- margin-top: 35px;
  text-align: center;
- width: 74px;
  font-size: 20px;
  margin-bottom: 16px;
- padding-left: 518px;
 }
 
 .subscribe h3 {
   text-align: center;
-  width: 647px;
   font-size: 40px;
   margin-bottom: 48px;
-  padding-left: 232px;
 }
 
 .kutu {
   display: flex;
   width: 1110px;
-  margin-right: 167px;
   margin-bottom: 120px;
+  gap: 25px;
+  margin: 0 auto;
 }
 
 .kutu h5 {
@@ -247,9 +242,7 @@ strong {
 .box1 {
   padding: 40px;
   background-color: rgba(18, 18, 18, 1);
-  width: 264px;
   box-shadow: 0px 12px 16px 0px rgba(40, 41, 61, 0.0364);
-  margin-right: 24px;
   border-radius: 12px;
   text-align: center;
 }
@@ -257,9 +250,7 @@ strong {
 .box2 {
   padding: 40px;
   background-color: rgba(18, 18, 18, 1);
-  width: 264px;
   box-shadow: 0px 12px 16px 0px rgba(40, 41, 61, 0.0364);
-  margin-right: 24px;
   text-align: center;
   border-radius: 12px;
 }
@@ -267,26 +258,20 @@ strong {
 .box3 {
   padding: 40px;
   background-color: rgba(18, 18, 18, 1);
-  width: 264px;
   box-shadow: 0px 12px 16px 0px rgba(40, 41, 61, 0.0364);
-  margin-right: 24px;
   text-align: center;
   border-radius: 12px;  
 }
 
 .button {
-  border-width: 274px;
   background-color: rgba(220, 53, 69, 1);
   text-align: center;
-  padding: 16px 72px 16px 72px;
+  padding: 16px 16px;
   gap: 16px;
-  border-radius: 3px 0px 0px 0px;
+  border-radius: 3px;
   text-decoration: none;
   color: rgba(255, 255, 255, 1);
-  width: 80px;
-  font-size: 23px;
-  margin-top: 284px;
-  margin: 21px;
+  font-size: 18px;
 }
 
 .questions {
@@ -337,13 +322,11 @@ strong {
 
 .search {
   background-color: rgba(18, 18, 18, 1);
-  width: 1235px;
-  padding-left: 165px;
+  width: 1440px;
   justify-content: space-around;
   align-items: center;
   display: inline-flex;
-  padding-top: 72px;
-  padding-bottom: 72px;
+  padding: 72px 120px;
 }
 
 .search h3{
@@ -373,16 +356,20 @@ strong {
   padding-right: 165px;
 }
 
+.grafik {
+  text-align: center;
+}
+
 hr {
   border: 1px solid rgba(63, 59, 59, 1);
   width: 1235px;
 }
 
 .final {
+  margin: 0 auto;
+  width: 1440px;
   background-color: rgba(18, 18, 18, 1);
-  padding-left: 165px;
   display: inline-flex;
-  width: 1235px;
   padding-top: 24px;
   padding-bottom: 24px;
   vertical-align: middle;
