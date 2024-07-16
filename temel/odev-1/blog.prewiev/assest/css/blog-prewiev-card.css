@@ -9,13 +9,13 @@
 }
 
 .container {
- width:384px;
- margin-top: 218px;
- margin-left: 528px;
- border: 1px solid rgba(17, 17, 17, 1);
- border-radius: 20px;
- box-shadow: 8px 8px rgba(0, 0, 0, 1);
- background-color: rgba(255, 255, 255, 1);
+  margin: 0 auto;
+  width:384px;
+  margin-top: 120px;
+  border: 1px solid rgba(17, 17, 17, 1);
+  border-radius: 20px;
+  box-shadow: 8px 8px rgba(0, 0, 0, 1);
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .img {

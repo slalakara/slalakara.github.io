@@ -1,0 +1,176 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body{
+  margin-inline: auto;
+  width: 90%;
+}
+
+.container {
+ padding: 165px;
+ display: grid;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 55px;
+  text-align: center;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  gap: 41px;
+
+}
+.nav a{
+  text-decoration: none;
+  color: #5E607A;
+}
+
+.nav a:hover{
+  color: #F15D51;
+}
+
+.hero {
+  display: flex;
+  flex-direction: row;
+  gap: 54px;
+}
+
+.main {
+  width: 730px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main img {
+  margin-bottom: 28px;
+  align-items: center;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.main-text p {
+  width: 350px;
+  color: #5E607A;
+  margin-left: 61px;
+  margin-top: 19px;
+  line-height: 26px;
+  font-size: 19px;
+}
+
+.main-text h4 {
+  font-weight: 800;
+  width: 311px;
+  font-size: 50px;
+}
+
+.read-more {
+  text-decoration: none;
+  color: #FFFDFA;
+  background-color: #F15D51;
+  padding: 13px 35px;
+  width: 187px;
+  margin-left: 373px;
+  margin-top: -87px;
+}
+
+.read-more:hover {
+ background-color: #000000;
+}
+
+.aside {
+  width: 400px;
+  background-color: #00001A;
+  color: #C5C6CE;
+  padding: 24px;
+  line-height: 26px;
+  padding-bottom: 31px;
+}
+
+.aside h3 {
+  width: 88px;
+  color: #E9AA52;
+  text-align: left;
+  padding-bottom: 32px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.aside h4 {
+  font-weight: 400;
+  width: 302px;
+  color: #FFFDFA;
+  margin-bottom: 8px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.aside h4:hover{
+  color: #E9AA52;
+}
+
+hr {
+  color: #5E607A;
+  width: 302px;
+  margin-bottom: 29px;
+  margin-top: 29px;
+}
+
+.footer {
+  margin-top: 71px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.footer img {
+  margin-right: 24px;
+}
+
+.footer h2 {
+  margin-bottom: 12px;
+  color: #C5C6CE;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.footer h3 {
+  margin-bottom: 12px;
+  color: #00001A;
+}
+
+.footer h3:hover {
+  color: #F15D51;
+}
+
+.footer p {
+  color: #5E607A;
+  line-height: 26px;
+}
+
+.pc {
+  display: flex;
+  flex-direction: row;
+}
+
+.klavye {
+  display: flex;
+  flex-direction: row;
+}
+
+.gamer {
+  display: flex;
+  flex-direction: row;
+}
+
