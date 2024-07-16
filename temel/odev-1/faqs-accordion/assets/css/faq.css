@@ -1,0 +1,77 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+body {
+  background-image: url('../img/bg.svg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-color: #f8eeff;
+  font-family: "Work Sans", "sans-serif";
+  font-optical-sizing: auto;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 800;
+}
+
+.sss {
+  margin-top: 180px;
+  width: 600px;
+  background-color: #fff;
+  padding: 40px;
+  padding-bottom: 16px;
+  margin-inline: auto;
+  margin-bottom: 20px;
+  border-radius: 16px;
+}
+
+.sss details {
+  border-bottom: 1px solid #333;
+}
+
+.sss details:last-child {
+  border-bottom: 0;
+}
+
+.sss details[open] {
+  padding-bottom: 24px;
+}
+
+.sss summary {
+  color: #301534;
+  font-weight: 600;
+  list-style: none;
+  background: url('../img/accordion-closed-icon.svg') right center no-repeat;
+  padding-block: 24px;
+  cursor: pointer;
+}
+
+.sss details[open] summary {
+  background-image: url('../img/accordion-open-icon.svg');
+}
+
+
