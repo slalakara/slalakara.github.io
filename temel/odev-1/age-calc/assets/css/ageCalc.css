@@ -9,6 +9,7 @@ body {
 }
 
 .screenConotainer {
+  margin: 0 auto;
   width: 375px;
   padding: 88px 16px 238px 16px;
   background-color: #F0F0F0;
