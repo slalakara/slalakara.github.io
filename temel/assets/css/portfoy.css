@@ -20,7 +20,7 @@ body{
 .container {
   background-color: var(--dark-color);
   color: var(--primary-color);
-  width: 375px;
+  width: 385px;
   margin: 0 auto;
   padding-top: 20px;
   text-align: center;
@@ -115,8 +115,6 @@ hr{
 
 .projects-content {
   display: grid;
-  grid-template-columns: repeat(1fr, 2);
-  grid-template-rows: repeat(1fr, 8);
   column-gap: 10px;
   row-gap: 10px;
 }
@@ -133,9 +131,6 @@ hr{
   margin-bottom: 20px;
 }
 
-
-
-
 .footer {
   width: 154px;
   display: flex;
@@ -151,20 +146,152 @@ hr{
   margin-bottom: 49px;
 }
 
-/* @media (width >= 768px) {
+@media(width >= 768px) {
   .container {
     width: 768px;
   }
 
   .header {
-    width: 709px;
+    width: 590px;
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 292px;
+  }
+
+  .nav {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0 auto;
+    margin-bottom: 49px;
+  }
+
+  .hero {
+    display: flex;
+    align-items: center;
+    padding: 0px 65px;
+    margin-bottom: 50px;
+  }
+
+  .hero-text {
+    text-align: left;
+  }
+
+  .hero-text h2{
+    text-align: left;
+  }
+
+  .hero img {
+    width: 174px;
+    margin-bottom: auto;
+    border-radius: 100px;
+    border: outset var(--primary-color);
+  }
+
+  .projects-header {
+    width: 590px;
+  }
+
+  .skills {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .projects-content img{
+    width: 590px;
+  }
+
+  hr {
+    width: 730px;
+    margin-top: 0px;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  .footer {
+    width: 590px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 292px;
+  }
+  
+} 
+
+@media(width >= 1440px) {
+  .container {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 50px 40px;
+  }
+
+  hr {
+    width: 1310px;
+  }
+
+  .header {
+    width: 1150px;
+    display: flex;
+    gap: 821px;
+    align-items: baseline;
+    margin-bottom: 40px;
+  }
+
+  .header h2 {
+    font-size: 30px;
+    width: 400px;
+  }
+
+  .hero {
+    width: 1300px;
+  }
+
+  .hero h2 {
+    font-size: 33px;
+  }
+  .hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+
+  .hero img {
+    width: 300px;
+    border-radius: 165px;
+  }
+
+  .hero-text {
+    width: 600px;
+  }
+
+  .footer {
+    width: 1150px;
+    display: flex;
+    gap: 821px;
+    align-items: baseline;
+    margin-bottom: 40px;
+  }
+
+  .projects-header {
+    width: 1150px;
+  }
+
+  .projects-header h2{
+    font-size: 33px;
+  }
+  
+  .footer h2 {
+    font-size: 30px;
+    width: 400px;
+  }
+
+  .btn {
+    padding: 15px 30px;
   }
 
 
-
-
-
-
-} */
+}
