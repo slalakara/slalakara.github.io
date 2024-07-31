@@ -1,0 +1,314 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+	font-family: "Montserrat", sans-serif;
+}
+
+a {
+	text-decoration: none;
+	font-family: "Montserrat", sans-serif;
+}
+
+ul, li {
+	text-decoration: none;
+}
+
+.container {
+	margin: 0 auto;
+	width: 375px;
+	padding: 64px 24px;
+	text-align: center;
+	background-color: #F7F7FE;
+	font-family: "Montserrat", sans-serif;
+	background-image: url(/temel/odev-1/pricingComponent/assets/img/mobileBackground.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-size: 50%;
+	background-position-x: 100%;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 39.01px;
+	text-align: center;
+	margin-bottom: 40px;
+	color: #6E728E;
+}
+
+button {
+	color: white;
+	padding: 10px 10px;
+	border-radius: 50%;
+	border: 1px solid white;
+}
+
+h6 {
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 28px;
+	color: #6E728E;
+	margin-bottom: 82px;
+	display: flex;
+  align-items: center;
+	justify-content: center;
+	gap: 25px;
+}
+
+.boxes {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+}
+
+.boxItem {
+	background-color: #FFFFFF;
+	box-shadow: 0px 20px 40px 0px #D4D2F480;
+	border-radius: 10px;
+  padding: 31px 29px;
+	margin-bottom: 32px;
+}
+
+.boxItem h5 {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 28px;
+  margin-bottom: 24px;
+	color: #6E728E;
+}
+
+.boxItem h1 {
+	font-size: 72px;
+	font-weight: 700;
+	line-height: 71px;
+	letter-spacing: -2.1600000858306885px;
+  color: #4A4D60;
+	margin-bottom: 32px;
+}
+
+.boxItem h3 {
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 28px;
+	color: #6E728E;
+	margin-bottom: 12px;
+}
+
+hr {
+	width: 269px;
+	height: 1px;
+	top: 106px;
+	opacity: 25%;
+	color: #6E728E;
+	margin-bottom: 12px;
+}
+
+.sonHr {
+	margin-bottom: 32px;
+}
+
+a {
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 15.85px;
+	letter-spacing: 1.3928571939468384px;
+	color: #FFFFFF;
+	padding: 14px 81px;
+	background: linear-gradient(135deg, #A2A7F0 0%, #696EDD 100%);
+	border-radius: 10px;
+}
+
+.boxItem:nth-child(2) {
+	background: linear-gradient(135deg, #A2A7F0 0.06%, #696EDD 100.06%);
+	color: #FFFFFF;
+}
+
+.boxItem:nth-child(2)>h1 {
+	color: white;
+}
+
+.boxItem:nth-child(2)>hr {
+	color: white;
+}
+
+.boxItem:nth-child(2)>h3 {
+	color: white;
+}
+
+.boxItem:nth-child(2)>h5 {
+	color: white;
+}
+
+.boxItem:nth-child(2) a {
+	background-color: white;
+}
+
+.boxItem:nth-child(2) a{ 
+	background: white;
+	color: #696EDD;
+
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+	background: linear-gradient(135deg, #A2A7F0 0%, #696EDD 100%);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background: linear-gradient(135deg, #A2A7F0 0%, #696EDD 100%);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #696EDD;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+@media(width >= 650px) {
+	.container {
+		width: 1440px;
+		margin: 0 auto;
+		background-image: url(/temel/odev-1/pricingComponent/assets/img/desk2.png);
+		background-repeat: no-repeat;
+		background-position-x: right;
+		background-position-y: top;
+		background-size: auto;
+		padding: 71px 0px 0px 0px;
+	}
+
+	h2 {
+		font-size: 32px;
+		font-weight: 700;
+		line-height: 39.01px;
+		text-align: center;
+	}
+
+	h6:hover {
+		color: #6E728E;
+	}
+
+	.boxes {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		padding: 64px 195px 103px 195px;
+		background-image: url(/temel/odev-1/pricingComponent/assets/img/desktopbackimg.png);
+		background-repeat: no-repeat;
+		background-position-x: left;
+		background-position-y: bottom;
+		background-size: auto;
+	}
+
+	a:hover {
+		background-color: white;
+	}
+
+	.boxItem:nth-child(2) {
+		width: 350px;
+		position: relative;
+		bottom: 10px;
+	}
+
+	.boxItem:nth-child(2) a{ 
+    background: white;
+		color: #696EDD;
+
+	}
+
+	.boxItem:nth-child(2).learnMore {
+    margin-bottom: 50px;
+	}
+
+	.boxItem:nth-child(2) a:hover{
+		background: linear-gradient(135deg, #A2A7F0 0%, #696EDD 100%);
+		color: white;
+		border: 1px solid white;
+	} 
+
+	.boxItem:nth-child(1) a:hover{
+		background: white;
+		color: #696EDD;
+		border: 1px solid #696EDD ;
+	}
+
+	.boxItem:nth-child(3) a:hover{
+		background: white;
+		color: #696EDD;
+		border: 1px solid #696EDD ;
+	}
+
+	.slider:hover {
+		background:  #A2A7F0;
+	}
+
+	input:focus + .slider:hover {
+		background:  #A2A7F0;
+	}
+
+}
